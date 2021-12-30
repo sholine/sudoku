@@ -83,25 +83,25 @@ def affiche_grille(grille) :
     nom=""
     if numpb[0]>0 :
         num=str(numpb[0]);nom="pb"+num+".txt"
-    print ("┌———————┬———————┬———————┐")
+    toprint="┌———————┬———————┬———————┐\n"
     ct=0
     for l in range(9) :
-        print ("│ ",end="")
+        toprint+="│ "
         for c in range(9):
             if grille[l,c]>0 :
                 ct=ct+1
                 v=int(grille[l,c])
-                print (v,end=" ")
+                toprint+=str(v)+" "
                
             else :
-                print(" ",end=" ")  # n'affiche pas les 0
+                toprint+=("  ")  # n'affiche pas les 0
             if c==2 or c==5:
-                print("│",end=" ")
-        print ("│")
+                toprint+=("│ ")
+        toprint+="│\n"
         if l==2 or l==5 :
-            print ("├———————┼———————┼———————┤")
-    print ("└———————┴———————┴———————┘")
-    #print("       ",nom)
+            toprint+="├———————┼———————┼———————┤\n"
+    toprint+="└———————┴———————┴———————┘\n"
+    print(toprint)
     
 # ..................................................
 def sauvegrille():
@@ -966,22 +966,23 @@ def MAJdd() :  # recherche des doubles-doubles : remplit grilleDD
     MAJgrilleVU();MAJgrillePU()  # MAJ à partir de la table des possibles modifiée
 # ..................................................
 def affichegrilledouble(grille):
-    print ("┌——————————┬——————————┬——————————┐")
+    toprint = "┌——————————┬——————————┬——————————┐\n"
     for l in range(9) :
-        print ("│ ",end="")
+        toprint += "│ "
         for c in range(9):
             if grille[l,c]>0 :
                 n=int(grille[l,c])
-                print (n,end=" ")
+                toprint += str(n) + " "
                 
             else :
-                print("  ",end=" ")  # n'affiche pas les 0
+                toprint += "   "  # n'affiche pas les 0
             if c==2 or c==5:
-                print("│",end=" ")
-        print ("│")
+                toprint += "│ "
+        toprint += "│\n"
         if l==2 or l==5 :
-            print ("├——————————┼——————————┼——————————┤")
-    print ("└——————————┴——————————┴——————————┘")
+            toprint += "├——————————┼——————————┼——————————┤\n"
+    toprint += "└——————————┴——————————┴——————————┘\n"
+    print(toprint)
 
 # ..................................................
 def solution3(sol):  # solution niveau 3
