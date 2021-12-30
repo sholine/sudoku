@@ -18,4 +18,8 @@ version:
 
 ## gen: Generates sudoku grids
 gen:
-				python3 "sudo generer - avec IDLE.py"
+				python3 "sudo generer.py"
+
+## words: Display word version of sudoku
+words:
+				python3 "jeu mot-carre.py"
