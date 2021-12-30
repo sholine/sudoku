@@ -725,137 +725,135 @@ grillemot=['','','','','','']
 grmot=['']
 defmot=['']
 motcaré=['','','','','','','','','']
-motcarré =  ['','','','','','','','','','','','','','','','','','','','',
-             '','','','','','','','','','','','','','','','','','','','',
-             '','','','','','','','','','','','','','','','','','','','','']
+motcarré = []
 defmotcarré =  ['','','','','','','','','','','','','','','','','','','','',
              '','','','','','','','','','','','','','','','','','','','',
              '','','','','','','','','','','','','','','','','','','','','']
              
-motcarré[0]='COURTISAN'
+motcarré.append('COURTISAN')
 defmotcarré[0] = 'attaché à la cour'
-motcarré[1]='ERUPTIONS'
+motcarré.append('ERUPTIONS')
 defmotcarré[1] = 'surgissements'
-motcarré[2]='POINTURES'
+motcarré.append('POINTURES')
 defmotcarré[2] = 'qui excellent'
-motcarré[3]='ALTRUISME'
+motcarré.append('ALTRUISME')
 defmotcarré[3] = 'valeur morale'
-motcarré[4]='SALICORNE'
+motcarré.append('SALICORNE')
 defmotcarré[4] = 'sur le bord de la mer'
-motcarré[5]='RELUISANT'
+motcarré.append('RELUISANT')
 defmotcarré[5] = 'brillant'
-motcarré[6]='RELATIONS'
+motcarré.append('RELATIONS')
 defmotcarré[6] = 'rapports de dépendance'
-motcarré[7]='SCOLARITE'
+motcarré.append('SCOLARITE')
 defmotcarré[7] = 'durée de plusieurs années'
-motcarré[8]= 'MONITEURS'
+motcarré.append('MONITEURS')
 defmotcarré[8] = "chargés d'encadrer"
-motcarré[9]='CHERUBINS'
+motcarré.append('CHERUBINS')
 defmotcarré[9] = 'esprit céleste de second rang'
-motcarré[10]='BISCORNUE'
+motcarré.append('BISCORNUE')
 defmotcarré[10] = 'bizarre'
-motcarré[11]='SIGNATURE'
+motcarré.append('SIGNATURE')
 defmotcarré[11] = 'marque qui identifie'
-motcarré[12]='NOSTALGIE'
+motcarré.append('NOSTALGIE')
 defmotcarré[12] = 'mal du pays'
-motcarré[13]='NATURISME'
+motcarré.append('NATURISME')
 defmotcarré[13] = 'style de vie'
-motcarré[14]='SOURIANTE'
+motcarré.append('SOURIANTE')
 defmotcarré[14] = 'de bonne humeur'
-motcarré[15]='ARCHIPELS'
+motcarré.append('ARCHIPELS')
 defmotcarré[15] = 'groupes formant une unité géographique'
-motcarré[16]='FOCALISER'
+motcarré.append('FOCALISER')
 defmotcarré[16] = 'concentrer'
-motcarré[17]='TOURNEVIS'
+motcarré.append('TOURNEVIS')
 defmotcarré[17] = 'gendarme'
-motcarré[18]='BUCHERONS'
+motcarré.append('BUCHERONS')
 defmotcarré[18] = 'travaillent dans le bois'
-motcarré[19]='CONFISEUR'
+motcarré.append('CONFISEUR')
 defmotcarré[19] = 'fait ou vend des produits comestibles'
-motcarré[20]= 'OBSCURITE'
+motcarré.append('OBSCURITE')
 defmotcarré[20] = "défaut d'intelligibilité"
-motcarré[21]='CONFITURE'
+motcarré.append('CONFITURE')
 defmotcarré[21] = 'mélange gélifié'
-motcarré[22]='URBANISTE'
+motcarré.append('URBANISTE')
 defmotcarré[22] = 'spécialiste de plans'
-motcarré[23]='VOCALISER'
+motcarré.append('VOCALISER')
 defmotcarré[23] = 'parcourir une échelle'
-motcarré[24]='TOURAINES'
+motcarré.append('TOURAINES')
 defmotcarré[24] = 'qui habitent une commune du Vaucluse'
-motcarré[25]='SOBRIQUET'
+motcarré.append('SOBRIQUET')
 defmotcarré[25] = 'surnom'
-motcarré[26]='BRAIMENTS'
+motcarré.append('BRAIMENTS')
 defmotcarré[26] = "cris d'ânes"
-motcarré[27]='PATINEURS'
+motcarré.append('PATINEURS')
 defmotcarré[27] = 'peuvent être sur roulettes'
-motcarré[28]='DINOSAURE'
+motcarré.append('DINOSAURE')
 defmotcarré[28] = 'personne de grande influence'
-motcarré[29]='DOUANIERS'
+motcarré.append('DOUANIERS')
 defmotcarré[29] = 'vérifient les marchandises'
-motcarré[30]='NOIRAUDES'
+motcarré.append('NOIRAUDES')
 defmotcarré[30] = 'ont le teint brun'
-motcarré[31]='REDUCTION'
+motcarré.append('REDUCTION')
 defmotcarré[31] = 'diminution'
-motcarré[32]='BRUTALISE'
+motcarré.append('BRUTALISE')
 defmotcarré[32] = 'violenté'
-motcarré[33]='URBANISME'
+motcarré.append('URBANISME')
 defmotcarré[33] = "art de l'aménagement"
-motcarré[34]='ROUMAINES'
+motcarré.append('ROUMAINES')
 defmotcarré[34] = 'habitent en Europe orientale'
-motcarré[35]='AUMONIERS'
+motcarré.append('AUMONIERS')
 defmotcarré[35] = 'écclésiastique'
-motcarré[36]='ORGANISME'
+motcarré.append('ORGANISME')
 defmotcarré[36] = 'être vivant'
-motcarré[37]='PARTICULE'
+motcarré.append('PARTICULE')
 defmotcarré[37] = 'partie infime'
-motcarré[38]='ANTICORPS'
+motcarré.append('ANTICORPS')
 defmotcarré[38] = 'protéine'
-motcarré[39]='PYROMANIE'
+motcarré.append('PYROMANIE')
 defmotcarré[39] = 'impulsion obsédante'
-motcarré[40]='PLASTIQUE'
+motcarré.append('PLASTIQUE')
 defmotcarré[40] = 'malléable'
-motcarré[41]='EXCLUSION'
+motcarré.append('EXCLUSION')
 defmotcarré[41] = 'relation logique'
-motcarré[42]='COMPTABLE'
+motcarré.append('COMPTABLE')
 defmotcarré[42] = 'responsable'
-motcarré[43]='SOUHAITER'
+motcarré.append('SOUHAITER')
 defmotcarré[43] = 'désirer'
-motcarré[44]='CONSULTER'
+motcarré.append('CONSULTER')
 defmotcarré[44] = 'délibérer'
-motcarré[45]='SOULIGNER'
+motcarré.append('SOULIGNER')
 defmotcarré[45] = 'faire ressortir'
-motcarré[46]='INCOMPLET'
+motcarré.append('INCOMPLET')
 defmotcarré[46] = 'partiel'
-motcarré[47]='OBLIGEANT'
+motcarré.append('OBLIGEANT')
 defmotcarré[47] = 'rend service'
-motcarré[48]='COMPLIQUE'
+motcarré.append('COMPLIQUE')
 defmotcarré[48] = 'alambiqué'
-motcarré[49]='CONJUGALE'
+motcarré.append('CONJUGALE')
 defmotcarré[49] = "propre à l'union"
-motcarré[50]='CLIGNOTER'
+motcarré.append('CLIGNOTER')
 defmotcarré[50] = 'par intermittence'
-motcarré[51]='CHALOUPER'
+motcarré.append('CHALOUPER')
 defmotcarré[51] = 'se balancer'
-motcarré[52]='IMPORTUNE'
+motcarré.append('IMPORTUNE')
 defmotcarré[52] = 'incommodé'
-motcarré[53]='CENSORIAL'
+motcarré.append('CENSORIAL')
 defmotcarré[53] = 'pour une juridiction'
-motcarré[54]='CARBONYLE'
+motcarré.append('CARBONYLE')
 defmotcarré[54] = "mélange d'huiles"
-motcarré[55]='FORMALITE'
+motcarré.append('FORMALITE')
 defmotcarré[55] = 'procédure'
-motcarré[56]='PATCHOULI'
+motcarré.append('PATCHOULI')
 defmotcarré[56] = 'plante tropicale'
-motcarré[57]='PASTICHER'
+motcarré.append('PASTICHER')
 defmotcarré[57] = 'imiter'
-motcarré[58]='PALUDISME'
+motcarré.append('PALUDISME')
 defmotcarré[58] = 'maladie tropicale'
 
 
 
 def mots_carrés():   # nouveau jeu : choix de grille et de mot à trouver 
     tracer(0)
-    indicemot=random.randint(0,58)
+    indicemot=random.randint(0,len(motcarré))
     
     mot=motcarré[indicemot]
     
