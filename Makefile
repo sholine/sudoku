@@ -11,4 +11,4 @@ install:
 
 ## gen: Generates sudoku grids
 gen:
-				python3 "sudo generer - avec IDLE.py"
+				/usr/bin/python3 "sudo generer - avec IDLE.py"
