@@ -7,8 +7,15 @@ help: Makefile
 
 ## install: Install prerequisite libraries
 install:
-				pip install -r requirements.txt
+				python3 -m pip install -r requirements.txt
+#brew install python-tk
+
+## version: Show wgich version of python3 is really used
+version:
+				which python3
+				python3 -V
+				python3 -m pip -V
 
 ## gen: Generates sudoku grids
 gen:
-				/usr/bin/python3 "sudo generer - avec IDLE.py"
+				python3 "sudo generer - avec IDLE.py"
